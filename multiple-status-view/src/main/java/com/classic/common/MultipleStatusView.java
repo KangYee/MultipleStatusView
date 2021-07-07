@@ -112,6 +112,22 @@ public class MultipleStatusView extends RelativeLayout {
         this.mOnRetryClickListener = onRetryClickListener;
     }
 
+    public void setEmptyViewResId(int emptyViewResId) {
+        this.mEmptyViewResId = emptyViewResId;
+    }
+
+    public void setErrorViewResId(int errorViewResId) {
+        this.mErrorViewResId = errorViewResId;
+    }
+
+    public void setLoadingViewResId(int loadingViewResId) {
+        this.mLoadingViewResId = loadingViewResId;
+    }
+
+    public void setNoNetworkViewResId(int noNetworkViewResId) {
+        this.mNoNetworkViewResId = noNetworkViewResId;
+    }
+
     /**
      * 显示空视图
      */
