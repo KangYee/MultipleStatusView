@@ -417,6 +417,18 @@ public class MultipleStatusView extends RelativeLayout {
         }
     }
 
+    public void setEmptyStatusButtonTitle(String title) {
+        if (mEmptyView == null) {
+            return;
+        }
+        TextView emptyRetryView = mEmptyView.findViewById(R.id.empty_retry_view);
+        if (null != emptyRetryView) {
+            emptyRetryView.setText(title);
+        } else {
+            throw new NullPointerException("Not find the view ID `empty_retry_view`");
+        }
+    }
+
     private View inflateView(int layoutId) {
         return mInflater.inflate(layoutId, null);
     }
