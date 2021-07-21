@@ -8,8 +8,8 @@ ext {
             applicationId       : "com.classic.common.simple",
             minSdkVersion       : 14,
             targetSdkVersion    : 28,
-            versionCode         : 9,
-            versionName         : "1.7.1"
+            versionCode         : 10,
+            versionName         : "1.7.2"
     ]
 
     resourcePrefix = "MultipleStatusView"
